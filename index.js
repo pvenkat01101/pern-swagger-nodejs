@@ -37,7 +37,6 @@ var corsOptions={
 }
 
 app.get('/employee/:id',cors(), getEmployee)
-
 app.use(express.json());
 /**
  * @swagger
