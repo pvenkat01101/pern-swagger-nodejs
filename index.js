@@ -376,6 +376,6 @@ app.delete("/team/:id",deleteTeam)
 app.delete("/employeeassign/:employee_id/:team_id",deleteEmployeeAssignment)
 
 
-app.listen(5050,()=>{
-    console.log("server listening in port 5050");
+.listen(process.env.PORT || 5050,()=>{
+    console.log("server listening in port 5050 || "+process.env.PORT);
 })
