@@ -1,0 +1,27 @@
+
+- Express framework to write script in server
+- pg is the client tool to connect to the postgress database
+- cors : ??
+
+
+
+
+
+
+
+COMMANDS
+------------------------------
+npm init  : to create package.json with structure and minimum content
+npm i cors express pg -s
+sudo npm install touch-cli -g
+npm i nodemon -g   : for hot reload
+nodemon index.js
+
+
+
+
+
+
+
+
+
