@@ -23,5 +23,22 @@ nodemon index.js
 
 
 
+Deploy
+-------------------------------------
+create git repo
+clone commit push
+Install Heroku
+heroku login
+heroku --version
+heroku create <name>
+git push heroku <branch name> 
+heroku logs --tail
+
+
+
+
+
+
+
 
 
